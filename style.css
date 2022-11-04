@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background-image: url('img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.container{
+  width: 63%;
+  margin: auto;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.logo{
+  text-align: center;
+}
+
+.logo img{
+  width: 20%;
+}
+
+.logo h1{
+  color: #00EE00;
+  font-size: 22px;
+}
+
+.nav-button{
+  width: 80%;
+  background-color: #00EE00;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin: auto;
+  text-align: center;
+}
+
+.nav-button button{
+    font-size: 12px;
+}
+
+main{
+  width: 80%;
+  margin: auto;
+}
+
+.scooters{
+  margin-top: 20px;
+}
+
+.scooters h4{
+  display: inline-block;
+  margin-left: 4px;
+}
+
+.scooters span{
+  display: block;
+  font-size: 12px;
+}
+
+.address:before{
+  content: "\21A6";
+  font-size: 16px;
+  margin-right: 4px;
+}
+
+.charging-bar{
+  height: 22px;
+  border-radius: 4px;
+  border: none;
+}
+
+.charging-bar.gold{
+  background-color: #EEB422;
+  width: 35%;
+}
+
+.charging-bar.green{
+  background-color: limegreen;
+  width: 60%;
+}
+
+.charging-bar.red{
+  background-color: #CD3333;
+  width: 15%;
+}
